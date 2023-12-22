@@ -19,3 +19,4 @@ D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.Core\obj\Debug\n
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.Core\obj\Debug\net8.0\refint\MB.Infrastructure.Core.dll
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.Core\obj\Debug\net8.0\MB.Infrastructure.Core.pdb
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.Core\obj\Debug\net8.0\ref\MB.Infrastructure.Core.dll
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.Core\obj\Debug\net8.0\MB.Infrastructure.Core.sourcelink.json

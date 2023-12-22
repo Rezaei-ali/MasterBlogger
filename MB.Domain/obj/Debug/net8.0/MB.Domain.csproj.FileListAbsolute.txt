@@ -9,3 +9,4 @@ D:\practice-night\MasterBlogger\MasterBlogger\MB.Domain\obj\Debug\net8.0\MB.Doma
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Domain\obj\Debug\net8.0\refint\MB.Domain.dll
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Domain\obj\Debug\net8.0\MB.Domain.pdb
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Domain\obj\Debug\net8.0\ref\MB.Domain.dll
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Domain\obj\Debug\net8.0\MB.Domain.sourcelink.json

@@ -1,5 +1,5 @@
 ﻿using MB.Domain.ArticleCategoryAgg;
-using Microsoft.EntityFrameworkCore;
+
 
 namespace MB.Infrastructure.EFCore.Repositories;
 

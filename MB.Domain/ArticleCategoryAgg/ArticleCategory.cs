@@ -8,6 +8,7 @@ public class ArticleCategory
     public string Title { get; private set; }
     public bool IsDeleted { get; private set; }
     public string CreationDate { get; private set; }
+    public ICollection<Article.Article> Articles { get; private set; }
 
     public ArticleCategory(string title, IArticleCategoryValidatorService validatorService)
     {
@@ -17,6 +18,7 @@ public class ArticleCategory
         Title = title;
         CreationDate = DateTime.Now.ToString();
         IsDeleted = false;
+        Articles = new List<Article.Article>();
     }
 
     private void GuardAgainstEmptyTitle(string title)

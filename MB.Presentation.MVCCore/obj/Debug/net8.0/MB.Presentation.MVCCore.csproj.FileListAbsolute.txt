@@ -43,3 +43,4 @@ D:\practice-night\MasterBlogger\MasterBlogger\MB.Presentation.MVCCore\obj\Debug\
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Presentation.MVCCore\obj\Debug\net8.0\MB.Presentation.MVCCore.csproj.CopyComplete
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net8.0\MB.Infrastructure.Core.dll
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net8.0\MB.Infrastructure.Core.pdb
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Presentation.MVCCore\obj\Debug\net8.0\MB.Presentation.MVCCore.sourcelink.json
