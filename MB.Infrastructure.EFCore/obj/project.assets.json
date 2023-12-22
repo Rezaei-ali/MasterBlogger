@@ -876,9 +876,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "MB.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MB.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.Application.Contracts.dll": {}
+        }
+      },
       "MB.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MB.Application.Contracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/MB.Domain.dll": {}
         },
@@ -2296,6 +2309,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "MB.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../MB.Application.Contracts/MB.Application.Contracts.csproj",
+      "msbuildProject": "../MB.Application.Contracts/MB.Application.Contracts.csproj"
+    },
     "MB.Domain/1.0.0": {
       "type": "project",
       "path": "../MB.Domain/MB.Domain.csproj",
@@ -2304,6 +2322,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "MB.Application.Contracts >= 1.0.0",
       "MB.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
@@ -2342,6 +2361,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "D:\\practice-night\\MasterBlogger\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+              "projectPath": "D:\\practice-night\\MasterBlogger\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+            },
             "D:\\practice-night\\MasterBlogger\\MasterBlogger\\MB.Domain\\MB.Domain.csproj": {
               "projectPath": "D:\\practice-night\\MasterBlogger\\MasterBlogger\\MB.Domain\\MB.Domain.csproj"
             }

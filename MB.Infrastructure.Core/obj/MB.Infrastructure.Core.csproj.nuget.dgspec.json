@@ -153,7 +153,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\practice-night\\MasterBlogger\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+                "projectPath": "D:\\practice-night\\MasterBlogger\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -289,6 +293,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\practice-night\\MasterBlogger\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+                "projectPath": "D:\\practice-night\\MasterBlogger\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+              },
               "D:\\practice-night\\MasterBlogger\\MasterBlogger\\MB.Domain\\MB.Domain.csproj": {
                 "projectPath": "D:\\practice-night\\MasterBlogger\\MasterBlogger\\MB.Domain\\MB.Domain.csproj"
               }

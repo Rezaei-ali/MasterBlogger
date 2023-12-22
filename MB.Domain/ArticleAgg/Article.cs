@@ -14,6 +14,10 @@ public class Article
     public long ArticleCategoryId { get; private set; }
     public ArticleCategory ArticleCategory { get; private set; }
 
+    protected Article()
+    {
+        
+    }
     public Article(string title, string shortDescription, string image, string content, long articleCategoryId)
     {
         Title = title;

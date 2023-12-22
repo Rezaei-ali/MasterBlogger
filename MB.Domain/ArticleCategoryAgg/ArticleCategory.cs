@@ -8,8 +8,13 @@ public class ArticleCategory
     public string Title { get; private set; }
     public bool IsDeleted { get; private set; }
     public string CreationDate { get; private set; }
-    public ICollection<Article.Article> Articles { get; private set; }
+    public ICollection<Article.Article> Articles { get;  set; }
 
+
+    protected ArticleCategory()
+    {
+        
+    }
     public ArticleCategory(string title, IArticleCategoryValidatorService validatorService)
     {
         GuardAgainstEmptyTitle(title);

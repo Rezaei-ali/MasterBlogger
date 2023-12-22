@@ -193,12 +193,16 @@
         }
       },
       "MB.Domain/1.0.0": {
+        "dependencies": {
+          "MB.Application.Contracts": "1.0.0"
+        },
         "runtime": {
           "MB.Domain.dll": {}
         }
       },
       "MB.Infrastructure.EFCore/1.0.0": {
         "dependencies": {
+          "MB.Application.Contracts": "1.0.0",
           "MB.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0"
