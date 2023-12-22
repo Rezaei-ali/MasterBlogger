@@ -1,0 +1,17 @@
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\bin\Debug\net8.0\MB.Application.deps.json
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\bin\Debug\net8.0\MB.Application.dll
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\bin\Debug\net8.0\MB.Application.pdb
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\obj\Debug\net8.0\MB.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\obj\Debug\net8.0\MB.Application.AssemblyInfoInputs.cache
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\obj\Debug\net8.0\MB.Application.AssemblyInfo.cs
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\obj\Debug\net8.0\MB.Application.csproj.CoreCompileInputs.cache
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\obj\Debug\net8.0\MB.Application.dll
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\obj\Debug\net8.0\refint\MB.Application.dll
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\obj\Debug\net8.0\MB.Application.pdb
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\obj\Debug\net8.0\ref\MB.Application.dll
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\bin\Debug\net8.0\MB.Application.Contracts.dll
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\bin\Debug\net8.0\MB.Application.Contracts.pdb
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\obj\Debug\net8.0\MB.Application.csproj.AssemblyReference.cache
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\obj\Debug\net8.0\MB.Application.csproj.CopyComplete
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\bin\Debug\net8.0\MB.Domain.dll
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\bin\Debug\net8.0\MB.Domain.pdb
