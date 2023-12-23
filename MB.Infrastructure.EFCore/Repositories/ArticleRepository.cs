@@ -36,4 +36,8 @@ public class ArticleRepository : IArticleRepository
         _context.SaveChanges();
     }
 
+    public Article Get(long id)
+    {
+        return _context.Articles.FirstOrDefault(x => x.Id == id);
+    }
 }

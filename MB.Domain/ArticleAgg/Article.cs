@@ -30,6 +30,14 @@ public class Article
     }
 
 
+    public void Edit(string title, string shortDescription, string image, string content, long articleCategoryId)
+    {
+        Title = title;
+        ShortDescription = shortDescription;
+        Image = image;
+        Content = content;
+        ArticleCategoryId = articleCategoryId;
+    }
     
     
 } 
