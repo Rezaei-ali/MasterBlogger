@@ -25,4 +25,15 @@ public class ArticleRepository : IArticleRepository
         }).ToList();
     }
 
+    public void Add(Article entity)
+    {
+        _context.Articles.Add(entity);
+        Save();
+    }
+
+    public void Save()
+    {
+        _context.SaveChanges();
+    }
+
 }

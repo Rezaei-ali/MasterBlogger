@@ -3,4 +3,5 @@
 public interface IArticleApplication
 {
     List<ArticleViewModel> GetList();
+    void Create(CreateArticle command);
 }
