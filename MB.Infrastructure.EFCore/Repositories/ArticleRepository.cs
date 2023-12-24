@@ -40,4 +40,9 @@ public class ArticleRepository : IArticleRepository
     {
         return _context.Articles.FirstOrDefault(x => x.Id == id);
     }
+
+    public bool Exists(string title)
+    {
+        return _context.Articles.Any(x => x.Title == title);
+    }
 }

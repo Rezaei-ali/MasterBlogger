@@ -8,4 +8,5 @@ public interface IArticleRepository
     void Add(Article entity);
     void Save();
     Article Get(long id);
+    bool Exists(string title);
 }

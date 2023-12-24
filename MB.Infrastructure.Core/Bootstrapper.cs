@@ -2,6 +2,7 @@
 using MB.Application.Contracts.Article;
 using MB.Application.Contracts.ArticleCategory;
 using MB.Domain.Article;
+using MB.Domain.Article.Services;
 using MB.Domain.ArticleCategoryAgg;
 using MB.Domain.ArticleCategoryAgg.Services;
 using MB.Infrastructure.EFCore;
@@ -20,7 +21,7 @@ public class Bootstrapper
         
         services.AddTransient<IArticleApplication, ArticleApplication>();
         services.AddTransient<IArticleRepository, ArticleRepository>();
-        
+        services.AddTransient<IArticleValidatorService, ArticleValidatorService>();
         services.AddDbContext<MasterBloggerContext>(options =>
             options.UseNpgsql(connectionString));
     }
