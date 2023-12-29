@@ -1,4 +1,5 @@
 ﻿using MB.Domain.ArticleCategoryAgg;
+using MB.Domain.CommentAgg;
 
 namespace MB.Domain.Article;
 
@@ -13,6 +14,7 @@ public class Article
     public string CreationDate { get; private set; }
     public long ArticleCategoryId { get; private set; }
     public ArticleCategory ArticleCategory { get; private set; }
+    public ICollection<Comment> Comments { get; private set; }
 
     protected Article()
     {
@@ -29,6 +31,7 @@ public class Article
         ArticleCategoryId = articleCategoryId;
         IsDeleted = false;
         CreationDate = DateTime.Now.ToString();
+        Comments = new List<Comment>();
     }
 
     private static void Validate(string title, long articleCategoryId)
