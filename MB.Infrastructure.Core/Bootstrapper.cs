@@ -1,4 +1,5 @@
-﻿using MB.Application;
+﻿using Framework.Infrastructure;
+using MB.Application;
 using MB.Application.Contracts.Article;
 using MB.Application.Contracts.ArticleCategory;
 using MB.Application.Contracts.Comment;
@@ -30,6 +31,10 @@ public class Bootstrapper
 
         services.AddTransient<ICommentApplication, CommentApplication>();
         services.AddTransient<ICommentRepository, CommentRepository>();
+
+
+        services.AddTransient<IUnitOfWork, UnitOfWork>();
+        
         
         services.AddDbContext<MasterBloggerContext>(options =>
             options.UseNpgsql(connectionString));
