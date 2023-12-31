@@ -18,3 +18,5 @@ D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net8.0\MB.Infrastructure.EFCore.sourcelink.json
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net8.0\MB.Application.Contracts.dll
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net8.0\MB.Application.Contracts.pdb
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net8.0\Framework.dll
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net8.0\Framework.pdb

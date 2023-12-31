@@ -29,13 +29,13 @@ public class CommentApplication : ICommentApplication
     {
         var comment = _commentRepository.Get(id);
         comment.Confirm();
-        _commentRepository.Save();
+        //_commentRepository.Save();
     }
 
     public void Cancel(long id)
     {
         var comment = _commentRepository.Get(id);
         comment.Cancel();
-        _commentRepository.Save();
+        //_commentRepository.Save();
     }
 }

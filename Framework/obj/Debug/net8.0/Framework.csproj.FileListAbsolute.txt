@@ -1,0 +1,13 @@
+D:\practice-night\MasterBlogger\MasterBlogger\Framework\bin\Debug\net8.0\Framework.deps.json
+D:\practice-night\MasterBlogger\MasterBlogger\Framework\bin\Debug\net8.0\Framework.dll
+D:\practice-night\MasterBlogger\MasterBlogger\Framework\bin\Debug\net8.0\Framework.pdb
+D:\practice-night\MasterBlogger\MasterBlogger\Framework\obj\Debug\net8.0\Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\practice-night\MasterBlogger\MasterBlogger\Framework\obj\Debug\net8.0\Framework.AssemblyInfoInputs.cache
+D:\practice-night\MasterBlogger\MasterBlogger\Framework\obj\Debug\net8.0\Framework.AssemblyInfo.cs
+D:\practice-night\MasterBlogger\MasterBlogger\Framework\obj\Debug\net8.0\Framework.csproj.CoreCompileInputs.cache
+D:\practice-night\MasterBlogger\MasterBlogger\Framework\obj\Debug\net8.0\Framework.sourcelink.json
+D:\practice-night\MasterBlogger\MasterBlogger\Framework\obj\Debug\net8.0\Framework.dll
+D:\practice-night\MasterBlogger\MasterBlogger\Framework\obj\Debug\net8.0\refint\Framework.dll
+D:\practice-night\MasterBlogger\MasterBlogger\Framework\obj\Debug\net8.0\Framework.pdb
+D:\practice-night\MasterBlogger\MasterBlogger\Framework\obj\Debug\net8.0\ref\Framework.dll
+D:\practice-night\MasterBlogger\MasterBlogger\Framework\obj\Debug\net8.0\Framework.csproj.AssemblyReference.cache

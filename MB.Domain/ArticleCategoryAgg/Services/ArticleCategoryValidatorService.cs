@@ -14,7 +14,7 @@ public class ArticleCategoryValidatorService : IArticleCategoryValidatorService
     
     public void CheckRecordExist(string title)
     {
-        if (_articleCategoryRepository.Exists(title))
+        if (_articleCategoryRepository.Exists(x => x.Title == title))
             throw new DuplicatedRecordException("This record is already in database");
 
 

@@ -14,3 +14,5 @@ D:\practice-night\MasterBlogger\MasterBlogger\MB.Domain\bin\Debug\net8.0\MB.Appl
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Domain\bin\Debug\net8.0\MB.Application.Contracts.pdb
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Domain\obj\Debug\net8.0\MB.Domain.csproj.AssemblyReference.cache
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Domain\obj\Debug\net8.0\MB.Domain.csproj.CopyComplete
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Domain\bin\Debug\net8.0\Framework.dll
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Domain\bin\Debug\net8.0\Framework.pdb

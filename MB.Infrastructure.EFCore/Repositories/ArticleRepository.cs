@@ -1,13 +1,14 @@
-﻿using MB.Application.Contracts.Article;
+﻿using Framework.Infrastructure;
+using MB.Application.Contracts.Article;
 using MB.Domain.Article;
 using Microsoft.EntityFrameworkCore;
 
 namespace MB.Infrastructure.EFCore.Repositories;
 
-public class ArticleRepository : IArticleRepository
+public class ArticleRepository : BaseRepository<long,Article>,IArticleRepository
 {
     private readonly MasterBloggerContext _context;
-    public ArticleRepository(MasterBloggerContext context)
+    public ArticleRepository(MasterBloggerContext context) : base(context)
     {
         _context = context;
     }
@@ -24,25 +25,5 @@ public class ArticleRepository : IArticleRepository
             IsDeleted = x.IsDeleted
         }).ToList();
     }
-
-    public void Add(Article entity)
-    {
-        _context.Articles.Add(entity);
-        Save();
-    }
-
-    public void Save()
-    {
-        _context.SaveChanges();
-    }
-
-    public Article Get(long id)
-    {
-        return _context.Articles.FirstOrDefault(x => x.Id == id);
-    }
-
-    public bool Exists(string title)
-    {
-        return _context.Articles.Any(x => x.Title == title);
-    }
+    
 }

@@ -46,3 +46,5 @@ D:\practice-night\MasterBlogger\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Presentation.MVCCore\obj\Debug\net8.0\MB.Presentation.MVCCore.sourcelink.json
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net8.0\MB.Infrastructure.Query.dll
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net8.0\MB.Infrastructure.Query.pdb
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net8.0\Framework.dll
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net8.0\Framework.pdb

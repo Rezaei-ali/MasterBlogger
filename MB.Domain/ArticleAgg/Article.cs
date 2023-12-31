@@ -1,17 +1,17 @@
-﻿using MB.Domain.ArticleCategoryAgg;
+﻿using Framework.Domain;
+using MB.Domain.ArticleCategoryAgg;
 using MB.Domain.CommentAgg;
 
 namespace MB.Domain.Article;
 
-public class Article
+public class Article : DomainBase<long>
 {
-    public long Id { get; private set; }
+    
     public string Title { get; private set; }
     public string ShortDescription { get; private set; }
     public string Image { get; private set; }
     public string Content { get; private set; }
     public bool IsDeleted { get; private set; }
-    public string CreationDate { get; private set; }
     public long ArticleCategoryId { get; private set; }
     public ArticleCategory ArticleCategory { get; private set; }
     public ICollection<Comment> Comments { get; private set; }
@@ -30,7 +30,6 @@ public class Article
         Content = content;
         ArticleCategoryId = articleCategoryId;
         IsDeleted = false;
-        CreationDate = DateTime.Now.ToString();
         Comments = new List<Comment>();
     }
 

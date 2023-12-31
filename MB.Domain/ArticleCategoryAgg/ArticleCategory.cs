@@ -1,13 +1,13 @@
-﻿using MB.Domain.ArticleCategoryAgg.Services;
+﻿using Framework.Domain;
+using MB.Domain.ArticleCategoryAgg.Services;
 
 namespace MB.Domain.ArticleCategoryAgg;
 
-public class ArticleCategory
+public class ArticleCategory : DomainBase<long>
 {
-    public long Id { get; private set; }
+
     public string Title { get; private set; }
     public bool IsDeleted { get; private set; }
-    public string CreationDate { get; private set; }
     public ICollection<Article.Article> Articles { get;  set; }
 
 
@@ -21,7 +21,6 @@ public class ArticleCategory
         validatorService.CheckRecordExist(title);
         
         Title = title;
-        CreationDate = DateTime.Now.ToString();
         IsDeleted = false;
         Articles = new List<Article.Article>();
     }

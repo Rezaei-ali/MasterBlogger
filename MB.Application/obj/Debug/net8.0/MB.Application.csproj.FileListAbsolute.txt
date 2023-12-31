@@ -16,3 +16,5 @@ D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\obj\Debug\net8.0\MB
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\bin\Debug\net8.0\MB.Domain.dll
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\bin\Debug\net8.0\MB.Domain.pdb
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\obj\Debug\net8.0\MB.Application.sourcelink.json
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\bin\Debug\net8.0\Framework.dll
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Application\bin\Debug\net8.0\Framework.pdb

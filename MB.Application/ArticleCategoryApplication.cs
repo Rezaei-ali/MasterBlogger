@@ -39,14 +39,14 @@ public class ArticleCategoryApplication : IArticleCategoryApplication
     public void Create(CreateArticleCategory command)
     {
         var articleCategory = new ArticleCategory(command.Title, _articleCategoryValidatorService);
-        _articleCategoryRepository.Add(articleCategory);
+        _articleCategoryRepository.Create(articleCategory);
     }
 
     public void Rename(RenameArticleCategory command)
     {
         var articleCategory = _articleCategoryRepository.Get(command.Id);
         articleCategory.Rename(command.Title);
-        _articleCategoryRepository.Save();
+        //_articleCategoryRepository.Save();
 
     }
 
@@ -66,13 +66,13 @@ public class ArticleCategoryApplication : IArticleCategoryApplication
     {
         var articleCategory = _articleCategoryRepository.Get(id);
         articleCategory.Remove();
-        _articleCategoryRepository.Save();
+       // _articleCategoryRepository.Save();
     }
 
     public void Activate(long id)
     {
         var articleCategory = _articleCategoryRepository.Get(id);
         articleCategory.Activate();
-        _articleCategoryRepository.Save();
+       // _articleCategoryRepository.Save();
     }
 }

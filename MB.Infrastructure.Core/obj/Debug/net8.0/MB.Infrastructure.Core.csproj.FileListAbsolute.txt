@@ -22,3 +22,5 @@ D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.Core\obj\Debug\n
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.Core\obj\Debug\net8.0\MB.Infrastructure.Core.sourcelink.json
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.Core\bin\Debug\net8.0\MB.Infrastructure.Query.dll
 D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.Core\bin\Debug\net8.0\MB.Infrastructure.Query.pdb
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.Core\bin\Debug\net8.0\Framework.dll
+D:\practice-night\MasterBlogger\MasterBlogger\MB.Infrastructure.Core\bin\Debug\net8.0\Framework.pdb

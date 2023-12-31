@@ -12,7 +12,7 @@ public class ArticleValidatorService : IArticleValidatorService
     }
     public void CheckRecordExist(string title)
     {
-        if (_articleRepository.Exists(title))
+        if (_articleRepository.Exists(x => x.Title == title))
             throw new DuplicatedRecordException();  
     }
 }
